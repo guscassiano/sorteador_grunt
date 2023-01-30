@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+// document.addEventListener('DOMContentLoaded', function(){
     document.getElementById('form-sorteador').addEventListener('submit', function(e){
         e.preventDefault()
         let nummax = parseInt(document.getElementById('num-max').value);
@@ -12,4 +12,4 @@ document.addEventListener('DOMContentLoaded', function(){
         document.getElementById('resultado-valor').innerText = numrandom
         document.querySelector('.resultado').style.display = 'block'
     })
-})
+//})
